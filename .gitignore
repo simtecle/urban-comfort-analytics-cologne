@@ -203,6 +203,15 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Urban Comfort Analytics local data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+qgis/exports/*
+!qgis/exports/.gitkeep
+!qgis/exports/cologne_city_parts.geojson
+
 # Ruff stuff:
 .ruff_cache/
 
